@@ -5,3 +5,5 @@ O que vou aprender na Trybe:
 - Git
 Estou tentando usar o GitHub
 Internet
+CSS
+React
