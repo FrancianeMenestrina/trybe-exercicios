@@ -3,6 +3,9 @@ O que vou aprender na Trybe:
 - Unix
 - Bash
 - Git
-Estou tentando usar o GitHub
+- Vermelho
+- Azul
+- Gato
+- Peixe
 - Rosa
 - Margarida
