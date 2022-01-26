@@ -4,3 +4,7 @@ O que vou aprender na Trybe:
 - Bash
 - Git
 Estou tentando usar o GitHub
+- Vermelho
+- Azul
+- Gato
+- Peixe
