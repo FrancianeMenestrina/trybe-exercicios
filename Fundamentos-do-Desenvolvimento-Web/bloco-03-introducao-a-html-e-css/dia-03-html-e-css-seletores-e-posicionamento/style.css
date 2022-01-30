@@ -9,3 +9,7 @@ background-color: blueviolet;
 li:active {
 font-family: cursive;
 }
+
+li {
+    list-style: none;
+}
