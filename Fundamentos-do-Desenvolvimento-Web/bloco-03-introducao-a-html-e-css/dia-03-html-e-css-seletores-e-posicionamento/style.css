@@ -2,3 +2,20 @@ div:hover {
     border-color: chartreuse;
     border-style: solid;
 }
+
+div:nth-of-type(1) {
+    background-color: red;
+}
+
+div:nth-last-child(5) {
+    background-color: orange;
+}
+div:nth-last-child(4) {
+    background-color: green;
+}
+div:nth-last-child(3) {
+    background-color: blue;
+}
+div:nth-last-child(2) {
+    background-color: darkkhaki;
+}
