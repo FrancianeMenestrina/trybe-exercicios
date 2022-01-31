@@ -27,3 +27,13 @@ li {
 .lista-prog .item:nth-child(-n+3) {
     color: blue;
 }
+
+#sites ul li:hover{
+    font-style: bold;
+    color: blueviolet;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
