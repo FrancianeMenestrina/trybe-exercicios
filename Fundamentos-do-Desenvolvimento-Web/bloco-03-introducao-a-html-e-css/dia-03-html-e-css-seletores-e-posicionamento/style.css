@@ -25,7 +25,7 @@ li {
 }
 
 .lista-prog .item:nth-child(-n+3) {
-    color: blue;
+    color: #00a9d4 ;
 }
 
 #sites ul li:hover{
