@@ -23,3 +23,7 @@ h1 {
 li {
     font-size: 20px;
 }
+
+.lista-prog .item:nth-child(-n+3) {
+    color: blue;
+}
