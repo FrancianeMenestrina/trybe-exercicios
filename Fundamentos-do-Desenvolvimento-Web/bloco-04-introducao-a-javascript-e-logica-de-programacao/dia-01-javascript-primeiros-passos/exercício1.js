@@ -71,3 +71,29 @@ else {
     console.log("false");
 }
 
+//Exercício 6
+const pecaDeXadrez = "RAINha";
+
+switch (pecaDeXadrez.toLowerCase ()) {
+    case "rei":
+        console.log("Rei -> Uma casa apenas para qualquer direção");
+        break;
+    case "bispo":
+        console.log("Bispo -> Diagonal");
+        break;
+    case "rainha":
+        console.log("Rainha -> Diagonal, horizontal e vertical");
+        break;
+    case "cavalo":
+        console.log("Cavalo -> Movimento em L, pula sobre as peças");
+        break;
+    case "torre":
+        console.log("Torre -> Linha Reta, horizontal e vertical");
+        break;
+    case "peão":
+        console.log("Peão -> Apenas uma casa para frente");
+        break;
+    default:
+        console.log("Ërro, peça inválida!");
+        break;
+};
