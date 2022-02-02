@@ -7,23 +7,72 @@
     
     <style>
 
+      body {
+        background-color: #cde4b3;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 2%; 
+        text-align: justify;
+
+      }
+      h1 {
+        text-align: center;
+      }
+       
+
+        .menu li {
+        background-color: greenyellow;
+        text-align: center;
+        display: inline; 
+        padding: 15px;
+        border: dotted 1px black;
+
+      }
+
+       aside {
+         left: 30px;
+         width: 20%;
+         background-color: #99db49;
+         padding: 20px;
+         text-align: center;
+         border: black 1px dotted;
+       }
+
+       img {
+         width: 350px;
+       }
+
+       footer {
+         background-color: #99db49;
+         padding: 10px;
+         text-align: center;
+         border-radius: 10%;
+       }
+
+       p {
+         text-indent: 40px;
+       }
+
+
 
     </style>
   </head>
   <body>
     <!--insira os elementos aqui-->
     <header>
-      <h1>Soco a 80km/h: Conheça o Stomatopoda</h1>
+      <h1 id="Pginicial">Soco a 80km/h: Conheça o Stomatopoda</h1>
     </header>
+    <br>
 
     <nav>
-        <ul>
-            <li>Página Inicial</li>
-            <li>Sobre</li>
-            <li>Contato</li>
+        <ul class="menu">
+          <li><a href="#Pginicial">Página Inicial</a></li>
+            <li><a href="#description">Sobre</a></li>
+            <li><a href="#contato">Contato</a></li>
 
         </ul>
     </nav>
+
+    <br>
 
     <article>
       <h2>Fatos sobre o Stomatopoda</h2>
@@ -35,7 +84,7 @@
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Odontodactylus_scyllarus1.jpg/250px-Odontodactylus_scyllarus1.jpg" alt="Stomatopoda">
         <h4>Classificação Científica</h4>
         <ul>
-          <li> Nome científico: Odontodactylus scyllarus.</li>
+          <li> Nome científico: <i> Odontodactylus scyllarus.</i></li>
           <li> Reino: Animalia</li>
           <li>Filo:	Arthropoda</li>
           <li>Subfilo: Crustacea</li>
@@ -44,13 +93,9 @@
           <li>Ordem: Stomatopoda</li>
         </ul>
       </section>
+      <br>
 
-      <aside>
-        <p> Veja neste vídeo o poderoso soco do Stomatopoda em ação!</p>
-        <a href="https://www.youtube.com/watch?v=E0Li1k5hGBE">Assista aqui!</a>
-      </aside>
-
-      <h4>Descrição</h4>
+      <h4 id="description">Descrição</h4>
       <section>
         <p>
         Os estomatópodes são predadores ativos que caçam presas com o auxílio de um sentido de visão muito apurado e capaz de interpretar polarização no espectro ultravioleta e infravermelho). Apresentam uma grande variação de tamanho, que pode ir de poucos milímetros até aproximadamente 40 cm nas espécies maiores. Eles vivem em fundo consolidado, lodoso ou ainda arenoso, onde cavam seus buracos ou aproveitam-se dos orifícios deixados por outros animais para neles se instalar. São animais exclusivamente carnívoros, alimentando-se de camarões, caranguejos, moluscos, peixes e até mesmo outros da mesma ordem. O segundo par de patas, muito desenvolvido, é usado tanto para atacar a presa como para se defender. O urópodo, quando aberto, também funciona para defesa, como um escudo, fechando a galeria em que o animal esteja instalado. A fêmea desova no local onde se abriga e, em caso de perigo, enrola os ovos como uma bola, prendendo-os junto ao corpo até encontrar um abrigo mais protegido.</p>
@@ -62,6 +107,7 @@ São animais que apresentam comportamentos sociais muito variados, desde ameaça
 As maiores esmagadoras, tais como exemplares de Odontodactylus scyllarus, são capazes de desferir um dos mais rápidos e violentos golpes do reino animal, um soco que pode apresentar a velocidade de um tiro calibre .22 (equivalente a 720 km/h) e uma pressão de impacto de 600 N/cm².[3] Essa força esmagadora é a responsável pelo seu título de "lagosta-boxeadora" e é capaz de facilmente quebrar a carapaça de um caranguejo, as conchas duras e calcificadas de gastrópodes ou até mesmo quebrar o vidro reforçado de um aquário.[4][5]
 Estomatópodes podem ser encontrados em quase todo o litoral brasileiro, mas não são animais fáceis de se observar pelos seus hábitos mais furtivos. Devem ser manuseados com muita cautela pois são animais preparados para se defender com força, caso sejam incomodados.</p>
       </section>
+      <br>
 
       <h4>Complexo sistema de visão</h4>
       <section>
@@ -73,6 +119,8 @@ Estomatópodes podem ser encontrados em quase todo o litoral brasileiro, mas nã
         <p>
         Como cada cone pode ver cerca de 100 cores, os estomatópodes são capazes de ver 1024 cores, ou seja, 1 septilhão de cores. Em comparação, o olho humano vê 106 cores, ou seja, 1 milhão de cores apenas. A visão dos estomatópodes é sensível à luz ultravioleta, mas ainda é desconhecido se ela pode distinguir a luz infravermelha.</p>
       </section>
+      
+      <br>
 
       <h4>O poderoso soco</h4>
       <section>
@@ -81,8 +129,16 @@ Estomatópodes podem ser encontrados em quase todo o litoral brasileiro, mas nã
         As mais de 400 espécies dessa categoria morfológica são conhecidas por sua segunda pata torácica, um membro extremamente forte e desenvolvido que consegue destruir presas com facilidade.
         A força de um soco do camarão mantis é de 1500 newtons ou cerca de 152 quilos, enquanto o soco médio de um ser humano está na casa dos 3300 newtons ou 336 quilos. Ou seja, eles são muito menores que a gente, mas dão socos com a metade da nossa força.</p>
         <p>
-        Segundo a bióloga da Universidade San Jose Maya deVries, a força do soco desse animal é explicável pela fisiologia do animal. “O camarão mantis possui um sistema de acúmulo de energia para ‘engatilhar’ sua pata. Ele possui um sistema de tranca que reserva a energia. Portanto, quando o animal está pronto para atacar, ele contrai seus músculos e libera a tranca. Toda a energia acumulada nos músculos e no exoesqueleto do camarão é liberada e a pata gira à frente com uma aceleração absurda, que chega à 80 quilômetros por hora”, explica ao Oddity Central.</p>
+        Segundo a bióloga da Universidade San Jose Maya deVries, a força do soco desse animal é explicável pela fisiologia do animal. “O camarão mantis possui um sistema de acúmulo de energia para ‘engatilhar’ sua pata. Ele possui um sistema de tranca que reserva a energia. Portanto, quando o animal está pronto para atacar, ele contrai seus músculos e libera a tranca. Toda a energia acumulada nos músculos e no exoesqueleto do camarão é liberada e a pata gira à frente com uma aceleração absurda, que chega à <b>80 quilômetros por hora”, </b> explica ao Oddity Central.</p>
       </section>
+      <br>
+
+      <nav>
+        <aside>
+          <p> Veja neste vídeo o poderoso soco do Stomatopoda em ação!</p>
+          <a href="https://www.youtube.com/watch?v=E0Li1k5hGBE">Assista aqui!</a>
+        </aside>
+        </nav>
 
       <h4>Referências Bibliográficas</h4>
       <section>
@@ -97,8 +153,9 @@ Estomatópodes podem ser encontrados em quase todo o litoral brasileiro, mas nã
 
     </article>
 
-    <footer>
-      <p>Conteúdo compilado por Franciane Menestrina  |  2022 </p>
+
+    <footer id="contato">
+      <p>Conteúdo compilado por Franciane Menestrina    |    2022 </p>
       <p><a href="mailto:francianemenestrina@gmail.com">Contate via e-mail!</a></p>
     </footer>
 
