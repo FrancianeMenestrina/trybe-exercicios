@@ -141,3 +141,18 @@ else {
     console.log ("false");
 }
 
+//Exercício 10
+const valorDeVenda = 9
+const custoBruto = 6
+
+if (valorDeVenda <0 || custoBruto < 0){
+console.log("Número inválido");
+}
+else {
+    const custoTotalProduto = custoBruto * 1.20;
+    const lucro = (valorDeVenda - custoTotalProduto) * 1000;
+    console.log(lucro);
+};
+
+
+
