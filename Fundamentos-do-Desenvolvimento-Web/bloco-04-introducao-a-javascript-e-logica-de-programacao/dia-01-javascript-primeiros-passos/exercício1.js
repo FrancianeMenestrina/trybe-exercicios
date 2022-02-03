@@ -128,3 +128,16 @@ console.log("true");
 else {
     console.log ("false");
 }
+
+//Exercício 9
+const a = 9
+const b = 0
+const c = 2
+
+if ( a%2  != 0 || b%2 != 0 || c%2 != 0 ){
+console.log("true");
+}
+else {
+    console.log ("false");
+}
+
