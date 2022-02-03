@@ -116,3 +116,15 @@ if (nota < 0 || nota > 100) {
 } else {
   console.log("F");
 }
+
+//Exercício 8
+const a = 4
+const b = 7
+const c = 3
+
+if ( a%2  == 0 || b%2 == 0 || c%2 == 0 ){
+console.log("true");
+}
+else {
+    console.log ("false");
+}
