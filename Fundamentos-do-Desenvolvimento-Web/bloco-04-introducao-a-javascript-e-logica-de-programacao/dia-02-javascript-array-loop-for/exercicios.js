@@ -88,3 +88,11 @@
 // }
 // console.log(menor);
 
+// Exercício 8
+
+// let arrayNovo = []
+
+// for (let index = 0; index <= 25; index += 1){
+//    arrayNovo.push(index);
+// }
+// console.log(arrayNovo)
