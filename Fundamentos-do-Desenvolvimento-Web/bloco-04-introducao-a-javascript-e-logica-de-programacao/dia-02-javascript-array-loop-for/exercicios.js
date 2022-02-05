@@ -103,3 +103,18 @@
 // for (let index = 1; index <= numbers.length; index += 1){
 //     divisao.push(index/2);}
 // console.log(divisao);
+
+// Bônus - Exercicio 1
+
+// var vetor = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+// for (k = 1; k < vetor.length; k++) {
+//     for (j = 0; j < vetor.length - k; j++) {     
+//         if (vetor[j] > vetor[j + 1]) {
+//             aux          = vetor[j];
+//             vetor[j]     = vetor[j + 1];
+//             vetor[j + 1] = aux;
+//         }
+//     }
+// };
+// console.log(vetor);
