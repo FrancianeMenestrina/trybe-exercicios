@@ -104,7 +104,8 @@
 //     divisao.push(index/2);}
 // console.log(divisao);
 
-// Bônus - Exercicio 1
+// Bônus - Exercicio 1 - Bônus feito com base aqui:
+http://devfuria.com.br/logica-de-programacao/exemplos-na-linguagem-c-do-algoritmo-bubble-sort/
 
 // var vetor = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
@@ -116,5 +117,19 @@
 //             vetor[j + 1] = aux;
 //         }
 //     }
+// };
+// console.log(vetor);
+
+// Bônus Exercício 2
+// var vetor = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+// for (k = 1; k < vetor.length; k++) {
+//        for (j = 0; j < k; j++) {
+//            if (vetor[k] > vetor[j]) {
+//                aux          = vetor[k];
+//                vetor[k]     = vetor[j];
+//                vetor[j] = aux;
+//            }
+//        }
 // };
 // console.log(vetor);
