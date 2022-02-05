@@ -89,12 +89,12 @@
 
 // Exercício 8
 
-// let arrayNovo = []
+// let listaNum = [];
 
-// for (let index = 0; index <= 25; index += 1){
-//    arrayNovo.push(index);
+// for (let index = 1; index <= 25; index += 1){
+//     listaNum.push(index);
 // }
-// console.log(arrayNovo)
+// console.log(listaNum);
 
 // Exercício 9
 // let arrayNovo = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25];
