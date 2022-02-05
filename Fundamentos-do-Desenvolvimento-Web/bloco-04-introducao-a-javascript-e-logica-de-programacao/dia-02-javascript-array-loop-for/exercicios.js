@@ -78,28 +78,73 @@
 // Exercício 7
 
 // let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-// let menor = numbers [0]
+// let menor = numbers[0]
 
 // for (let index = 0; index < numbers.length; index += 1){
-
-// if (numbers[index] < menor) {
-//    menor = numbers[index];
-//  }
+//     if(numbers[index] < menor) {
+//         menor = numbers[index];
+//     }
 // }
-// console.log(menor);
+// console.log(menor + " é o menor número!");
 
 // Exercício 8
 
-// let arrayNovo = []
+// let listaNum = [];
 
-// for (let index = 0; index <= 25; index += 1){
-//    arrayNovo.push(index);
+// for (let index = 1; index <= 25; index += 1){
+//     listaNum.push(index);
 // }
-// console.log(arrayNovo)
+// console.log(listaNum);
 
-Exercício 9
-let arrayNovo = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25];
+// Exercício 9
+// let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25];
+// let divisao = [];
 
-for (let index = 0; index < arrayNovo.length; index += 1){
-   console.log(arrayNovo[index] / 2)
-}
+// for (let index = 1; index <= numbers.length; index += 1){
+//     divisao.push(index/2);}
+// console.log(divisao);
+
+// Bônus - Exercicio 1 - Bônus feito com base aqui:
+http://devfuria.com.br/logica-de-programacao/exemplos-na-linguagem-c-do-algoritmo-bubble-sort/
+
+// var vetor = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+// for (k = 1; k < vetor.length; k++) {
+//     for (j = 0; j < vetor.length - k; j++) {     
+//         if (vetor[j] > vetor[j + 1]) {
+//             aux          = vetor[j];
+//             vetor[j]     = vetor[j + 1];
+//             vetor[j + 1] = aux;
+//         }
+//     }
+// };
+// console.log(vetor);
+
+// Bônus Exercício 2
+// var vetor = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+// for (k = 1; k < vetor.length; k++) {
+//        for (j = 0; j < k; j++) {
+//            if (vetor[k] > vetor[j]) {
+//                aux          = vetor[k];
+//                vetor[k]     = vetor[j];
+//                vetor[j] = aux;
+//            }
+//        }
+// };
+// console.log(vetor);
+
+Bônus Exercício 3
+// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+// let multiplicados = [];
+
+// for (let index = 0; index < numbers.length; index += 1) {
+//   if (index + 1 < numbers.length) {
+//       multiplicados.push(numbers[index] * numbers[index + 1]);}
+//       else {
+//           multiplicados.push(numbers[index] * 2);}
+//   }
+    
+
+// console.log(numbers); 
+// console.log(multiplicados);
