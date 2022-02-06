@@ -27,3 +27,16 @@
 // stringDora = impares.toString ();
 
 // console.log(stringDora);
+
+// Exercício 3
+// let elemento = "peixe";
+// let array = ["urso", "tigre", "peixe"];
+
+// for (let index = 0; index < array.length; index += 1) {
+//     if(elemento === array[index]){
+//         console.log(index);
+//     } else 
+//         {
+//         console.log("Elemento não encontrado no array!");
+//     }
+// }
