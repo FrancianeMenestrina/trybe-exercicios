@@ -106,3 +106,19 @@
 //   Acesse as chaves nome e livrosFavoritos e faça um console.log no seguinte formato: "Julia tem 2 livros favoritos".
 
 //   console.log(leitor['nome'] + ' tem ' + leitor['livrosFavoritos'].length + ' livros favoritos.');
+
+Funções - Exercício 1
+
+Crie uma função que receba uma string e retorne true se for um palíndromo , ou false , se não for.
+
+function verificaPalindromo(string) {
+    let reverse = string.split('').reverse().join('');
+    if (reverse === string) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+  
+  console.log(verificaPalindromo('arara')); 
+  console.log(verificaPalindromo('desenvolvimento'));
