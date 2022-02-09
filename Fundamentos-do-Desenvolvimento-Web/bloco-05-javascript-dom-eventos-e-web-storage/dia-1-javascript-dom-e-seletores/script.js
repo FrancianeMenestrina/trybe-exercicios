@@ -8,7 +8,14 @@ function changeText () {
 // Exercicio 2
 changeText();
 
-function changeColor () {
+function changeColorBg () {
     let mainContent = document.getElementsByClassName("main-content")[0].style.background = "rgb(76, 164, 109)"
 }
-changeColor()
+changeColorBg()
+
+//Exercício 3
+changeColor ();
+function changeColor () {
+    let centerContent = document.getElementsByClassName("center-content")[0].style.background = "white"
+}
+changeColor();
