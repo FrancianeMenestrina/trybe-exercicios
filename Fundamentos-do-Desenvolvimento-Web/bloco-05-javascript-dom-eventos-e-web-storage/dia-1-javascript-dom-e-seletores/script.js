@@ -19,3 +19,11 @@ function changeColor () {
     let centerContent = document.getElementsByClassName("center-content")[0].style.background = "white"
 }
 changeColor();
+
+//Exercício 4
+changeTag ();
+function changeTag () {
+    let h1text = document.getElementsByTagName("h1")[0]
+    h1text.innerHTML = "Exercício 5.1 - JavaScript"
+}
+changeColor();
