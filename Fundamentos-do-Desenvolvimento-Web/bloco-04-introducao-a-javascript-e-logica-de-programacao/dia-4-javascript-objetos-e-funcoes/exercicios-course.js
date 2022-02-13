@@ -238,3 +238,18 @@ for (let index = 0; index <= N; index += 1){
   return somatorio
 }
 console.log(somaNumeros(5));
+
+// 7 - Crie uma função que receba uma string word e outra string ending . Verifique se a string ending é o final da string word . Considere que a string ending sempre será menor que a string word .
+// Valor de teste: 'trybe' e 'be'
+// Valor esperado no retorno da função: true
+// verificaFimPalavra('trybe', 'be') ;
+// Retorno esperado: true
+// verificaFimPalavra('joaofernando', 'fernan') ;
+// Retorno esperado: false
+
+function verificarFimPalavra(string, ending) {
+  let palavraExtraida = string.substr(string.length - ending.length, ending.length)
+
+  return palavraExtraida == ending;
+}
+  console.log(verificarFimPalavra("Trybe", "be"));
