@@ -59,3 +59,13 @@ function mudaCorButton (){
 
 let hollydayButton = document.querySelector("#btn-holiday")
 hollydayButton.addEventListener("click", mudaCorButton)
+
+
+function criaSextaFeira (param) {
+    let buttonsContainer = document.querySelector(".buttons-container")
+    let button = document.createElement("button")
+    button.setAttribute("id", "btn-friday")
+    button.innerText = param
+    buttonsContainer.appendChild(button)
+  }
+  criaFeriados("Sexta-Feira")
