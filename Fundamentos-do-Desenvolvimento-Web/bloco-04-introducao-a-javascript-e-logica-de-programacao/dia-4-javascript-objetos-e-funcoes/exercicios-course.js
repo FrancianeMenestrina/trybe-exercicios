@@ -140,3 +140,33 @@ function maiorindice (array){
   return posicao
 }
 console.log(maiorindice([4, 9, 7]));
+
+function maiorNumero (array){
+  let maiornumero = 0
+  let posicao = 0
+  for (let index = 0; index < array.length; index +=1){
+      if(array[index] > maiornumero){
+        maiornumero = array[index]
+        posicao = index  
+      }
+  }
+
+  return maiornumero
+}
+// 3 - Crie uma função que receba um array de inteiros e retorne o índice do menor valor.
+// Array de teste: [2, 4, 6, 7, 10, 0, -3]; .
+
+function menorindice (array){
+  //let menornumero = Number.MAX_SAFE_INTEGER //Ele é o maior número possível
+  let menornumero = maiorNumero(array) //Aqui estamos integrando as duas funçòes
+  let posicao = 0
+  for (let index = 0; index < array.length; index +=1){
+      if(array[index] < menornumero){
+        menornumero = array[index]
+        posicao = index  
+      }
+  }
+
+  return posicao
+}
+console.log(menorindice([10, 9, 7]));
