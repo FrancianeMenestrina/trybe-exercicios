@@ -31,3 +31,13 @@ function createDaysOfTheWeek() {
     listaDias.appendChild(elementoLista)
   }
  
+  function criaFeriados (param) {
+    let buttonsContainer = document.querySelector(".buttons-container")
+    let button = document.createElement("button")
+    button.setAttribute("id", "btn-holiday")
+    button.innerText = param
+    buttonsContainer.appendChild(button)
+
+  }
+
+  criaFeriados("Feriados")
