@@ -170,3 +170,21 @@ function menorindice (array){
   return posicao
 }
 console.log(menorindice([10, 9, 7]));
+
+// 4 - Crie uma função que receba um array de nomes e retorne o nome com a maior quantidade de caracteres.
+// Array de teste: ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']; .
+// Valor esperado no retorno da função: Fernanda .
+
+function MaiorNome(arraynomes) {
+  let nomeMaior = ""
+  for (let index = 0; index < arraynomes.length; index += 1){
+    
+    if (arraynomes[index].length > nomeMaior.length){
+      nomeMaior = arraynomes[index]
+    }
+}
+
+  return nomeMaior
+}
+
+console.log(MaiorNome(["Ivo", "Maria", "Pe"]))
