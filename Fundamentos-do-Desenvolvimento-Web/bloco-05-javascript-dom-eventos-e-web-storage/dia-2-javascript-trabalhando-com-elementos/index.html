@@ -112,9 +112,23 @@
         let item = document.createElement("li")
         item.innerText = array[index];
         lista.appendChild(item);
-        
       }
-      
+
+    //  9 - Adicione 3 tags h3 , todas sendo filhas do main criado no passo 2.
+      var arrayh3 = ["Oi", "Tudo bem", "Tchau"]
+      for (let index = 0; index < arrayh3.length; index++) {
+        let h31 = document.createElement("h3")
+        h31.innerText = arrayh3[index]
+        document.querySelector("main.main-content").appendChild(h31);
+      }
+      // let h32 = document.createElement("h3")
+      // document.querySelector("main.main-content").appendChild(h32);
+      // let h33 = document.createElement("h3")
+      // document.querySelector("main.main-content").appendChild(h33);
+
+    
+
+
 
     </script>
   </body>
