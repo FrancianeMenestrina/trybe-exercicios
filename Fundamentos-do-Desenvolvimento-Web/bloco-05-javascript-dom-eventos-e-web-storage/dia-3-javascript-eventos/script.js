@@ -41,3 +41,21 @@ function createDaysOfTheWeek() {
   }
 
   criaFeriados("Feriados")
+
+//   object.addEventListener("click", myScript);
+
+  
+function mudaCorButton (){
+    let hollydays = document.querySelectorAll("li.holiday")
+    for (let index = 0; index < hollydays.length; index += 1){
+        if(hollydays[index].getAttribute("style") == "background-color: pink"){
+            hollydays[index].setAttribute("style", "background-color: rgb(238,238,238)")
+        } else{
+            hollydays[index].setAttribute("style", "background-color: pink")
+        }
+    }
+
+}
+
+let hollydayButton = document.querySelector("#btn-holiday")
+hollydayButton.addEventListener("click", mudaCorButton)
