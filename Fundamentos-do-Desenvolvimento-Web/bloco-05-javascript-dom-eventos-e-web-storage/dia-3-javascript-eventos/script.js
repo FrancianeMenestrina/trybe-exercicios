@@ -161,7 +161,11 @@ function adicionaLegenda (cor){
     divMyTasks.appendChild(divNova)
 }
 adicionaLegenda("purple")
+
+myTasks("Dormir")
 adicionaLegenda("orange")
+
+myTasks("Acordar")
 adicionaLegenda("blue")
 
 // Exercício 9:
