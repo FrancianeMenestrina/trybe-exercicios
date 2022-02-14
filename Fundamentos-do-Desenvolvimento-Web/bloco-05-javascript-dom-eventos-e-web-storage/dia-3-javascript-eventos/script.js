@@ -112,3 +112,19 @@ function criaSextaFeira (param) {
 
 let sextaFeirasButton = document.querySelector("#btn-friday")
 sextaFeirasButton.addEventListener("click", mudaTextoButton)
+
+// Exercício 6:
+// Implemente duas funções que criem um efeito de "zoom". Ao passar o ponteiro do mouse em um 
+// dia do mês no calendário, o texto desse dia deve aumentar e, quando o ponteiro do mouse sair do dia, o texto deve retornar ao tamanho original.
+
+let arraydias = document.querySelectorAll("li.day")
+
+for (let index = 0; index < arraydias.length; index+=1) {
+    arraydias[index].addEventListener("mouseover", function (event) {
+        event.target.style = "font-size: 28px"
+    })
+    
+    arraydias[index].addEventListener("mouseleave", function (event) {
+        event.target.style = "font-size: 20px"
+    })
+}
