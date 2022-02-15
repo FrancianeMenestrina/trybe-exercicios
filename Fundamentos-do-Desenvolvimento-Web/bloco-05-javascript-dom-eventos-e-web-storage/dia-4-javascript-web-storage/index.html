@@ -24,8 +24,22 @@
 </head>
 <body>
 
+
+    <p>Choose the colors:</p>
+
+<div>
+    <input type="color" id="head" name="head"
+           value="#e66465">
+    <label for="head">Background-color</label>
+</div>
+
+<div>
+    <input type="color" id="body" name="body"
+            value="#f6b73c">
+    <label for="body">Font-color</label>
+</div>
     <h1>
-        1914 translation by H. Rackham
+        Personalize esta página!
     </h1>
        <p> Section 1.10.33 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC <br>
 "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium <br>
@@ -42,6 +56,23 @@ autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet u
 
 </body>
 <script>
+
+function criaButton (param) {
+    let bodyy = document.querySelector("body")
+    let button = document.createElement("button")
+    button.innerText = "Background-color"
+    bodyy.appendChild(button)
+}
+   criaButton()
+
+
+   
+
+
+
+
+
+
 localStorage.setItem("background-color", "green")
 
 localStorage.setItem("color", "black")
