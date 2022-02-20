@@ -3,5 +3,35 @@
 }
 
 #quadro-ao-redor{
-border: solid 1px black;
+border: solid 3px black;
+width: 700px ;
+}
+
+#myform{
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+/* #labelName{
+    padding: 90px;
+} */
+
+
+.margem{
+    margin-top: 3%;
+}
+
+button{
+    margin-top: 3%;
+}
+
+#inputName{
+    width: 300px;
+    font-style: italic;
+}
+#inputEmail{
+    width: 377px;
+    font-style: italic;
 }
