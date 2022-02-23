@@ -46,11 +46,13 @@
   }
 
   .main-container {
+    border: solid 5px purple;
     display: flex;
     flex-wrap: wrap;
   }
   
   .movie-container {
+    border: solid 2px blue;
     display: flex;
     flex-direction: column;
   }
@@ -58,9 +60,11 @@
   .movie-container h2 {
     margin: 40px 0;
     text-align: center;
+    border: solid 2px green;
   }
   
   .card-container {
+    border: solid 2px orange;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -81,14 +85,19 @@
     flex-direction: column;
     margin: 20px;
     flex-basis: 350px;
+    justify-content: center;
+    flex-grow: 1;
+    border: greenyellow solid 1px;
   }
   
   .aside-container h3, h4 {
     margin-bottom: 10px;
     text-align: center;
+    border: red solid 1px;
   }
   
   .aside-container p {
     margin: 10px 0;
     text-align: justify;
+    border: blue solid 1px;
   }
