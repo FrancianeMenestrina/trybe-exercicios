@@ -103,3 +103,9 @@
     margin: 10px 0;
     text-align: justify;
   }
+
+  .title{
+    font-family: rollerscript-rough, sans-serif;
+font-style: normal;
+font-weight: 400;
+  }
