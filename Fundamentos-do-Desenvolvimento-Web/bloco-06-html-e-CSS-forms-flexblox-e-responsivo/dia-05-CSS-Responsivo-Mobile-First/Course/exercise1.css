@@ -37,6 +37,10 @@
   section {
   
   }
+
+  p {
+  
+  }
   
   figure {
       margin: 0;
@@ -45,3 +49,10 @@
   figcaption {
     font-size: .8em;
   }
+
+  @media (min-width: 470px) {
+    body {
+      font-size: 25px;
+    }
+  }
+  
