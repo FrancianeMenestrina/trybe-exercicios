@@ -55,4 +55,11 @@
       font-size: 25px;
     }
   }
+
+  @media (min-width: 470px) {
+    h1 {
+      font-size: 25px;
+    }
+  }
+
   
