@@ -53,6 +53,7 @@
   @media (min-width: 470px) {
     body {
       font-size: 25px;
+      margin: 0 3%;
     }
   }
 
@@ -67,5 +68,7 @@
     max-width: 100%;
   }
 }
+
+
 
   
