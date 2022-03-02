@@ -53,5 +53,20 @@ html {
   a {
     text-decoration: none;
     color: white;
+  }
 
+  @media (min-width: 640px) {
+    body {
+      background-color: #e5f3ba;
+    }
+  }
+  
+  @media (min-width: 640px) {
+    .chapters {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 300px;
+
+    }
   }
