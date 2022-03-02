@@ -70,3 +70,8 @@ html {
 
     }
   }
+
+  @media (min-width: 950px) {
+    body {
+      background-color: #abccbd;
+    }
