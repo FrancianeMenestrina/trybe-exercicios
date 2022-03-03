@@ -1,0 +1,24 @@
+.colunas {
+    border: 1px solid black;
+    height: 40px;
+    width: 40px;
+}
+
+.container {
+    width: 90px;
+    height: 173px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.paleta {
+    border: 1px solid black;
+    height: 40px;
+    width: 40px;  
+    background-color: blueviolet;
+}
+
+.paleta:hover {
+    background-color:red;
+    cursor:pointer;
+}
