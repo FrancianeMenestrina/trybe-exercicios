@@ -108,6 +108,11 @@
 
 // console.log(longestWord("Antonio foi no banheiro e não sabemos o que aconteceu"));
 
+// Crie uma página que contenha:
+// Um botão ao qual será associado um event listener ;
+// Uma variável clickCount no arquivo JavaScript que acumule o número de clicks no botão;
+// Um campo no HTML que vá atualizando a quantidade de clicks no botão conforme a variável clickCount é atualizada.
+
 
 // let botao = document.querySelector("button");
 // let paragrafo = document.querySelector("p");
@@ -118,15 +123,15 @@
 //     paragrafo.innerHTML = clickCount += 1;
 //   }
 
-// Refatorado com arrow
-  let botao = document.querySelector("button");
-  let paragrafo = document.querySelector("p");
-  let clickCount = 0;
+function xtreme (string) {
+  let newString = string.replace("x", "Franciane");
   
-  botao.addEventListener("click", contador)
-    function contador () {
-      paragrafo.innerHTML = clickCount += 1;
-    }
+  return newString
+  }
+  console.log(xtreme("Tryber x aqui"));
   
+
+
+
 
 
