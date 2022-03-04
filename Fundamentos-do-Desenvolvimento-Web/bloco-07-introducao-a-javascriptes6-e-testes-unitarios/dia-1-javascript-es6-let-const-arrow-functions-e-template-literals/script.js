@@ -61,7 +61,7 @@ oddsAndEvens.sort(function(a, b) {
 console.log(`Os números ${oddsAndEvens} se encontram ordenados de forma crescente !`);
 
 
-// Parte II 
+// Parte II - Exercício 1
 // Crie uma função que receba um número e retorne seu fatorial.
 // Na matemática, o fatorial de um número não negativo N , com a notação N! , 
 // é o produto de todos os inteiros menores ou iguais a N . Exemplo: 4! = 4 * 3 * 2 * 1 = 24.
@@ -83,5 +83,32 @@ console.log(fatorial(4))
 // Spoiler: É possível resolver com uma linha usando ternary operator .
 const fatorial = n => n > 1 ? n * fatorial (n-1) : 1
 console.log(fatorial(4))
+
+// Exercício 2 
+
+// Crie uma função que receba uma frase e retorne qual a maior palavra.
+// Exemplo:
+// Copiar
+//       longestWord('Antônio foi no banheiro e não sabemos o que aconteceu') // retorna 'aconteceu'
+
+const longestWord = text => {
+  let wordArray = text.split(' ');
+  let maxLength = 0;
+  let result = '';
+
+  for (const word of wordArray) {
+      if (word.length > maxLength) {
+          maxLength = word.length;
+          result = word;
+      }
+  }
+
+  return result;
+}
+
+console.log(longestWord("Antonio foi no banheiro e não sabemos o que aconteceu"));
+
+
+
 
 
