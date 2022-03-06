@@ -35,5 +35,11 @@ const lesson1 = {
       return  Object.keys(objeto);
   }
   console.log(showKey(lesson2));
-  
+
+
+  const showLength = (objeto) => {
+    Object.keys(objeto).length;
+    return Object.keys(objeto).length;
+  }
+  console.log(showLength(lesson2));
 
