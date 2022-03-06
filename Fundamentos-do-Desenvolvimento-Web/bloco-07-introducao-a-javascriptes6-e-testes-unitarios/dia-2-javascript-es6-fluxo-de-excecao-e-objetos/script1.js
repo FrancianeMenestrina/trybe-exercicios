@@ -63,3 +63,7 @@ const lesson1 = {
     return total;
   };
   console.log(getNumberOfStudents(allLessons));
+
+
+  const getValueByNumber = (objeto ,number) => Object.values(objeto)[number];
+  console.log(getValueByNumber(lesson2, 0));
