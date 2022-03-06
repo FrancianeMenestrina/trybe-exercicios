@@ -43,3 +43,9 @@ const lesson1 = {
   }
   console.log(showLength(lesson2));
 
+
+  const showValues = (objeto) => {
+      Object.values(objeto);
+      return Object.values(objeto);
+  }
+   console.log(showValues(lesson2))
