@@ -22,30 +22,34 @@ const lesson1 = {
 
 //   }
 
-  const addNewKey = (objeto, key, value) => {
-    objeto[key] = value;
-  }
+  const addNewKey = (objeto, key, value) => { 
+      objeto[key] = value;}
   addNewKey(lesson2, "turno", "noite");
   console.log(lesson2);
 
 
 
-  const showKey = (objeto) => {
+  const showKey = (objeto) => { 
       Object.keys(objeto);
       return  Object.keys(objeto);
   }
   console.log(showKey(lesson2));
 
 
-  const showLength = (objeto) => {
-    Object.keys(objeto).length;
+  const showLength = (objeto) => { 
+      Object.keys(objeto).length;
     return Object.keys(objeto).length;
   }
   console.log(showLength(lesson2));
 
 
-  const showValues = (objeto) => {
+  const showValues = (objeto) => { 
       Object.values(objeto);
       return Object.values(objeto);
   }
-   console.log(showValues(lesson2))
+   console.log(showValues(lesson2));
+
+  
+   const allLessons = Object.assign({},{lesson1, lesson2, lesson3});
+   console.log(allLessons);
+
