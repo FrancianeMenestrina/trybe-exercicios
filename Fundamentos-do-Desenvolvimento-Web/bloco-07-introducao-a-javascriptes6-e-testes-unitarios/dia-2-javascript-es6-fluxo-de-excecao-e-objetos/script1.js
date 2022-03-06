@@ -21,8 +21,19 @@ const lesson1 = {
 //   function addNewKey(object, key, value) {
 
 //   }
-  const addNewKey = (object, key, value) => {
-    object[key] = value;
-  };
+
+  const addNewKey = (objeto, key, value) => {
+    objeto[key] = value;
+  }
   addNewKey(lesson2, "turno", "noite");
   console.log(lesson2);
+
+
+
+  const showKey = (objeto) => {
+      Object.keys(objeto);
+      return  Object.keys(objeto);
+  }
+  console.log(showKey(lesson2));
+  
+
