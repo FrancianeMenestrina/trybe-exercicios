@@ -73,4 +73,31 @@ describe('Requisito 4', () => {
         })
     });
  
-  
+
+    // 2-Faça uma chamada com um número divisível por 3 e verifique se o retorno é o esperado
+    describe('Requisito 3.2', () => {
+        it('Verifica se retorna fizz quando é informado 9', () => {
+            expect(myFizzBuzz(9)).toBe("fizz")
+        })
+    });
+
+    // 3-Faça uma chamada com um número divisível por 5 e verifique se o retorno é o esperado
+    describe('Requisito 3.3', () => {
+        it('Verifica se retorna buzz quando é informado 10', () => {
+            expect(myFizzBuzz(10)).toBe("buzz")
+        })
+    });
+
+    // 4-Faça uma chamada com um número que não é divisível por 3 ou 5 e verifique se o retorno é o esperado
+    describe('Requisito 3.4', () => {
+        it('Verifica se retorna o próprio número 8 quando é informado 8', () => {
+            expect(myFizzBuzz(8)).toBe(8)
+        })
+    });
+
+    // 5-Faça uma chamada com um parâmetro que não é um número e verifique se o retorno é o esperado
+    describe('Requisito 3.5', () => {
+        it('Verifica se retorna false quando não é informado um número, neste caso, uma string', () => {
+            expect(myFizzBuzz('4')).toBe(false)
+        })
+    });
