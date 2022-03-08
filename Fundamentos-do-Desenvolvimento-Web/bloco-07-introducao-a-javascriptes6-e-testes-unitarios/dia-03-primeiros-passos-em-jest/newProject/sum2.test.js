@@ -29,3 +29,11 @@ describe('Requisito 3', () => {
         expect(() => {sum(4, "5") }).toThrow('parameters must be numbers'); 
 })
 })
+
+// 4-Teste se a mensagem de erro é "parameters must be numbers" quando realizar a chamada sum(4, "5")
+describe('Requisito 4', () => {
+    it('Testa se a mensagem de erro é parameters must be numbers', () => {
+        expect (() => {sum (4, "5") }).toThrowError(new Error('parameters must be numbers'));
+    })
+})
+
