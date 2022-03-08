@@ -41,10 +41,16 @@ describe('Requisito 4', () => {
 // 1-Verifique se a chamada myRemove([1, 2, 3, 4], 3) retorna o array esperado
     describe('Requisito 2.1', () => {
         it('Testa se o array é igual e retira o item elencado', () => {
-            expect(myRemove([1, 2, 3, 4], 3)).toEqual([1, 2, 4])
+            expect(myRemove([1, 2, 3, 4], 3)).toEqual([1, 2, 4]);
         })
     });
 
+    // 2-Verifique se a chamada myRemove([1, 2, 3, 4], 3) não retorna o array [1, 2, 3, 4]
+    describe('Requisito 2.2', () => {
+        it('Testa se o array é igual e retira o item elencado', () => {
+            expect(myRemove([1, 2, 3, 4], 3)).not.toEqual([1, 2, 3, 4]);
+        })
+    });
 
 
 
