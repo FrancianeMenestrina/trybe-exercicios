@@ -7,7 +7,7 @@
 // });
 
 // ou 
-const {sum, myRemove} = require('./sum2');
+const {sum, myRemove, myFizzBuzz} = require('./sum2');
 
 describe('Requisito 1', () => {
     it('Soma de 4 e 5 resulta em 9', ()  => {
@@ -60,6 +60,17 @@ describe('Requisito 4', () => {
     });
 
 
+    // Parte 3 - A função myFizzBuzz(num) recebe um número num e retorna "fizzbuzz" se o número for 
+    // divisível por 3 e 5 , retorna "fizz" se for divisível apenas por 3 , retorna "buzz" se 
+    // divisível apenas por 5 , retorna o próprio número caso não seja divisível por 3 ou 5 e 
+    // retorna false caso num não seja um número
 
+    // 1-Faça uma chamada com um número divisível por 3 e 5 e verifique se o retorno é o esperado
 
+    describe('Requisito 3.1', () => {
+        it('Verifica se retorna fizzbuzz quando é informado 15', () => {
+            expect(myFizzBuzz(15)).toBe("fizzbuzz")
+        })
+    });
  
+  

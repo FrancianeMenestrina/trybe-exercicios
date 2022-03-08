@@ -9,7 +9,7 @@ function sum(a, b) {
   };
 
     // console.log(sum(5, "5"));
-  module.exports = {sum, myRemove};
+  module.exports = {sum, myRemove, myFizzBuzz};
   
   
   
@@ -24,4 +24,14 @@ function sum(a, b) {
   }
   // console.log(myRemove([1, 2, 3, 4], 3));
   
-  // implemente seus testes aqui
+
+  function myFizzBuzz(num) {
+    if (typeof num !== 'number') return false;
+    if (num % 3 === 0 && num % 5 === 0) return 'fizzbuzz';
+    if (num % 3 === 0) return 'fizz';
+    if (num % 5 === 0) return 'buzz';
+    return num;
+  }
+  
+  // console.log(myFizzBuzz(15));
+
