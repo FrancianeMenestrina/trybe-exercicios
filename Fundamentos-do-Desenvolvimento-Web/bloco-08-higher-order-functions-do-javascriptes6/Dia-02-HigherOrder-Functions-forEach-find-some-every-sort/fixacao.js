@@ -5,12 +5,23 @@ const emailListInData = [
     'paulo@email.com',
     'anaroberta@email.com',
     'fabiano@email.com',
-  ];
-  
-  const showEmailList = (email) => {
+];
+
+const showEmailList = (email) => {
     console.log(`O email ${email} esta cadastrado em nosso banco de dados!`);
-  };
-  
-  // Adicione seu código aqui
-  emailListInData.forEach(showEmailList);
+};
+
+// Adicione seu código aqui
+emailListInData.forEach(showEmailList);
+
+
+//   1 - Utilize o find para retornar o primeiro número do array que é divisível por 3 e 5 , caso ele exista:
+const numbers = [19, 21, 30, 3, 45, 22, 15];
+
+const findDivisibleBy3And5 = () => {
+    // Adiciona seu código aqui
+ return numbers.find((numero) => numero % 3 === 0 && numero % 5 === 0);
+}
+
+console.log(findDivisibleBy3And5());
 
