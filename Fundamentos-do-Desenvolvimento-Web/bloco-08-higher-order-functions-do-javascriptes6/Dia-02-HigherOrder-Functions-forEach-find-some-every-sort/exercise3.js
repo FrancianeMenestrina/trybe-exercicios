@@ -65,8 +65,8 @@ const books = [
 
 // 3 - Encontre o primeiro livro cujo nome possui 26 caracteres.
 
-function getNamedBook() {
-   return books.find((book) => book.name.length === 26);
-  };
-   
-  console.log(getNamedBook());
+function getNamedBook(elementoLivro) {
+    return elementoLivro.find((item) => item.name.length === 26);
+};
+
+console.log(getNamedBook(books));

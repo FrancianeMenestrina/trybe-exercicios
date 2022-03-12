@@ -1,5 +1,4 @@
-// 1 - Encontre o nome da primeira pessoa autora do livro nascida no ano de 1947.
-// Dica: use a função find .
+
 
 const books = [
     {
@@ -65,12 +64,17 @@ const books = [
   ];
   
   // Adicione o código do exercício aqui:
-  function authorBornIn1947() {
+
+  // 1 - Encontre o nome da primeira pessoa autora do livro nascida no ano de 1947.
+// Dica: use a função find .
+
+  function authorBornIn1947(listaDeLivros) {
     // return books.find((book) => book.author.birthYear === 1947).author.name;
-      return books.find(function batata(book){
-        return book.author.birthYear === 1947
+      return listaDeLivros.find(function batata(item){
+        return item.author.birthYear === 1947
       }).author.name
 
       
   }
-  console.log(authorBornIn1947());
+
+  console.log(authorBornIn1947(books));
