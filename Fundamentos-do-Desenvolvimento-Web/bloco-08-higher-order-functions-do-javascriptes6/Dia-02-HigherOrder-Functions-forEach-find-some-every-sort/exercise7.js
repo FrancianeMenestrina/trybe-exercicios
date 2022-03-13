@@ -65,10 +65,9 @@ const books = [
 //   7 - Faça uma função que retorne true , caso nenhum author tenha nascido no mesmo ano, e false , caso contrário.
 // Adicione o código do exercício aqui:
 
-//   const expectedResult = false;
 
-
-// const expectedResult = false;
+// const expectedResult = false; 
+// Esse aqui eu não entendi muito bem, pois misturou o every e o some
 
 function authorUnique() {
   return books.every((book) =>
