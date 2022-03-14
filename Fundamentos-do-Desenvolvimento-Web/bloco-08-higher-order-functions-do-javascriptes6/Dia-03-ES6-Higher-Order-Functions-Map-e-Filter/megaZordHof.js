@@ -51,14 +51,14 @@ const cities = [
 // "A cidade de Lavras fica no estado de Minas Gerais e na região Sudeste"
 
 const city = cities.map((itemDeCities) => {
-  const state = states.find((itemDeStates) => {
+  const stateObject = states.find((itemDeStates) => {
     return itemDeStates.short === itemDeCities.state;
   })
-  const region = regions.find((itemDeRegions) => {
+  const regionObject = regions.find((itemDeRegions) => {
     return itemDeRegions.short === itemDeCities.region 
   })
   //console.log(`A cidade de ${itemDeCities.name} fica no estado de  ${state.name}`)
-  return `A cidade de ${itemDeCities.name} fica no estado de  ${state.name} e na região ${region.name}`
+  return `A cidade de ${itemDeCities.name} fica no estado de  ${stateObject.name} e na região ${regionObject.name}`
 })
 
 
