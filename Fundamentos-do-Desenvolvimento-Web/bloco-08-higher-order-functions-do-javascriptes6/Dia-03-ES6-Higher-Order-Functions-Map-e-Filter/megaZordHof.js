@@ -47,42 +47,65 @@ const cities = [
 
 
 
-// 1.1 Transforme o array objetos cities em um array strings com o seguinte formato:
-// "A cidade de Lavras fica no estado de Minas Gerais e na região Sudeste"
+// // 1.1 Transforme o array objetos cities em um array strings com o seguinte formato:
+// // "A cidade de Lavras fica no estado de Minas Gerais e na região Sudeste"
 
-const city = cities.map((itemDeCities) => {
-  const stateObject = states.find((itemDeStates) => {
-    return itemDeStates.short === itemDeCities.state;
-  })
-  const regionObject = regions.find((itemDeRegions) => {
-    return itemDeRegions.short === itemDeCities.region 
-  })
-  //console.log(`A cidade de ${itemDeCities.name} fica no estado de  ${state.name}`)
-  return `A cidade de ${itemDeCities.name} fica no estado de  ${stateObject.name} e na região ${regionObject.name}`
+// const city = cities.map((itemDeCities) => {
+//   const stateObject = states.find((itemDeStates) => {
+//     return itemDeStates.short === itemDeCities.state;
+//   })
+//   const regionObject = regions.find((itemDeRegions) => {
+//     return itemDeRegions.short === itemDeCities.region 
+//   })
+//   return `A cidade de ${itemDeCities.name} fica no estado de  ${stateObject.name} e na região ${regionObject.name}`
+// })
+
+
+
+// console.log(city);
+
+
+
+
+//   // 2. Transforme (Mapeie) o array de objeto cities em um array de objetos do seguinte formato:
+//   // {
+//   //   state: "Amazonas",
+//   //   city: "Manaus",
+//   //   region: "Norte"
+//   // }
+//   //  {
+//   //     state: 'Pará',
+//   //   city: 'Belém',
+//   //   region: 'Norte'
+//   // },
+
+//   const city = cities.map((itemDeCities) => {
+//     const stateObject = states.find((itemDeStates) => {
+//       return itemDeStates.short === itemDeCities.state;
+//     })
+//     const regionObject = regions.find((itemDeRegions) => {
+//       return itemDeRegions.short === itemDeCities.region 
+//     })
+//     return {
+//             city: `${itemDeCities.name}`,
+//             state: `${stateObject.name}`,
+//             region: `${regionObject.name}`,
+//   }
+//   })
+  
+
+//   console.log(city);
+
+
+//   // 2.1 Transforme o array objetos cities em um array strings com o seguinte formato:
+// // "A cidade de Lavras fica no estado de Minas Gerais.
+
+const cityName =  cities.map((itemCities) => {
+const stateName = states.find((itemStates)=> {
+  return itemStates.short === itemCities.state
 })
+return `A cidade de ${itemCities.name} fica no estado de ${stateName.name}`
+})
+    
 
-
-
-console.log(city);
-
-
-
-  // 2. Transforme (Mapeie) o array de objeto cities em um array de objetos do seguinte formato:
-  // {
-  //   state: "Amazonas",
-  //   city: "Manaus",
-  //   region: "Norte"
-  // }
-  //  {
-  //     state: 'Pará',
-  //   city: 'Belém',
-  //   region: 'Norte'
-  // },
-
-  // function retornaEstadoCidadeRegion (states, regions, ) {
-  //     return {
-  //         state: states.name,
-  //         city: cities.name,
-  //     }
-  // }
-  // console.log(retornaEstadoCidadeRegion());
+console.log(cityName);
