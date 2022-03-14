@@ -15,5 +15,12 @@ const arrays = [
   console.log(flatten());
 
 
+  // function flatten() {
+  //   return arrays.reduce(
+  //       (acumulator, valorAtual) => [`${acumulator} ${valorAtual}`],
+  //   []
+  //   )};
+  // console.log(flatten());
+
 
 
