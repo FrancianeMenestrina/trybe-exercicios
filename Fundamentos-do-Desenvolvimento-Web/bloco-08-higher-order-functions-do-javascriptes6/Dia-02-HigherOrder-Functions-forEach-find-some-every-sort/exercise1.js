@@ -87,16 +87,28 @@ console.log(authorBornIn1947(books));
 
 
 
-// SOMENTE PARA FIXACAO DO APRENDIZADO
+// // SOMENTE PARA FIXACAO DO APRENDIZADO
 
 
-// function chuva(callback) {
-//   callback()
+// // function chuva(callback) {
+// //   callback()
+// // }
+
+// // chuva(function pingodechuva() {
+// //   console.log('ta chovendo')
+// // })
+
+
+
+// const chuva = (callback) => {
+// callback()
 // }
 
-// chuva(function pingodechuva() {
-//   console.log('ta chovendo')
+// retornoFunctionChuva = chuva(() => {
+//   return 'Tá chovendo'
 // })
+// console.log(retornoFunctionChuva)
+
 
 
 
@@ -116,52 +128,87 @@ console.log(authorBornIn1947(books));
 
 
 
-// function flores (callback) {
-// let retordoDacallback = callback()
-// return retordoDacallback
-// }
+// // function flores (callback) {
+// // let retordoDacallback = callback()
+// // return retordoDacallback
+// // }
 
-// let retornofunctionFlores = flores (function margarida (){
-//   return 'Apareceu a margarida!'
-// })
-// console.log(retornofunctionFlores)
+// // let retornofunctionFlores = flores (function margarida (){
+// //   return 'Apareceu a margarida!'
+// // })
+// // console.log(retornofunctionFlores)
 
 
 
-// function flores (callback) {
-//   return callback() 
-//   }
+// // function flores (callback) {
+// //   return callback() 
+// //   }
   
-//   let retornofunctionFlores = flores (function margarida (){
-//     return 'Apareceu a margarida!'
-//   })
-//   console.log(retornofunctionFlores)
+// //   let retornofunctionFlores = flores (function margarida (){
+// //     return 'Apareceu a margarida!'
+// //   })
+// //   console.log(retornofunctionFlores)
 
 
 
 
 
 
-// function telefone (calback) {
-//   return calback()
+// // function telefone (calback) {
+// //   return calback()
+// // }
+
+// // let retornoFunctionTelefone = telefone(function mensagem() {
+// //   return 'Oh babe, me atende...'
+// // })
+// // console.log(retornoFunctionTelefone)
+
+
+
+
+// // const telefone = (calback) => {
+// // return calback()
+// // }
+
+// // let retornoFunctionTelefone = telefone(() => {
+// //   return 'Oh babe, me atende...'
+// // })
+// // console.log(retornoFunctionTelefone)
+
+// function chuva(callback) {
+//   const retornodafuncaocallback = callback()
+//   return retornodafuncaocallback
 // }
-
-// let retornoFunctionTelefone = telefone(function mensagem() {
-//   return 'Oh babe, me atende...'
+// let resultadofuncaochuva = chuva(function pingodechuva() {
+//   return 'ta chovendo'
 // })
-// console.log(retornoFunctionTelefone)
+// console.log(resultadofuncaochuva)
 
 
-
-
-// const telefone = (calback) => {
-// return calback()
+// const chuva = (callback) => {
+//   const retordoDacallback = callback()
+//   return retordoDacallback
 // }
-
-// let retornoFunctionTelefone = telefone(() => {
-//   return 'Oh babe, me atende...'
+// const resultadofuncaochuva = chuva(()=> {
+//   return 'Tá chovendo'
 // })
-// console.log(retornoFunctionTelefone)
+
+// console.log(resultadofuncaochuva);
+
+
+
+
+// const chuva = (callback) => callback()
+
+// const resultadofuncaochuva = chuva(()=> 'Tá chovendo')
+
+// console.log(resultadofuncaochuva);
+
+
+
+
+
+
 
 
 
