@@ -26,10 +26,8 @@ const jupiter = {
 };
 
 console.log(planetDistanceFromSun(mars)); // A
-console.log(planetDistanceFromSun(venus)); // B
-console.log(planetDistanceFromSun(jupiter)); // C
+setTimeout(() => console.log(planetDistanceFromSun(venus)), 3000); // B
+setTimeout(() => console.log(planetDistanceFromSun(jupiter)), 2000); // C
 
-
-
-// 1 - Dado o código abaixo, qual a ordem de finalização de execução das linhas comentadas?
-// A ordem de finalização das linhas comentadas é: A , B, C 
+// 2 - Agora, dado o código abaixo, qual a ordem de finalização de execução das linhas comentadas?
+// A ordem de finalização das linhas comentadas é: A , C, B.
