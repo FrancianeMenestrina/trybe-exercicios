@@ -9,6 +9,7 @@ function sendMarsTemperature () {
 setTimeout(() => console.log('Mars temperature is: ' + getMarsTemperature() + ' ' + 'degree Celsius'), + messageDelay());
 }
 
+
 sendMarsTemperature(); // imprime "Mars temperature is: 20 degree Celsius", por exemplo
 
 // 4 - Suponha que você precise simular uma mensagem enviada do robô Curiosity de Marte para a Terra. 
